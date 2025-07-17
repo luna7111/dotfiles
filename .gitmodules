@@ -4,3 +4,9 @@
 [submodule "vim/.vim/pack/vendor/start/nerdtree"]
 	path = vim/.vim/pack/vendor/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "vim/.vim/plugin/vim-commentary"]
+	path = vim/.vim/plugin/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim/.vim/plugin/vim-templates"]
+	path = vim/.vim/plugin/vim-templates
+	url = https://github.com/tibabit/vim-templates.git
