@@ -7,3 +7,6 @@
 [submodule "vim/.vim/pack/YouCompleteMe/opt/YouCompleteMe"]
 	path = vim/.vim/pack/YouCompleteMe/opt/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "vim/.vim/pack/NerdTree/start/nerdtree"]
+	path = vim/.vim/pack/NerdTree/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
