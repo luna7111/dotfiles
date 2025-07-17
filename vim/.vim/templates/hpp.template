@@ -1,0 +1,23 @@
+/*
+ * Name: Luna del Valle
+ * File: {{FILE}}.hpp
+ * Created on: {{TIMESTAMP}}
+ */
+
+#ifndef {{MACRO_GUARD}}
+
+#define {{MACRO_GUARD}}
+
+
+class {{CLASS}} {
+    public:
+        {{CLASS}} ();
+		{{CLASS}} (const {{CLASS}}& other);
+        virtual ~{{CLASS}} ();
+		{{CLASS}}& operator=(const {{CLASS}}& rhs);
+
+    private:
+		{{CURSOR}}
+};
+
+#endif /* end of include guard {{MACRO_GUARD}} */

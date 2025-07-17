@@ -1,0 +1,26 @@
+/*
+ * Name: Luna del Valle
+ * File: {{FILE}}.cpp
+ * Created on: {{TIMESTAMP}}
+ */
+
+#include <{{FILE}}.hpp>
+
+{{CLASS}}::{{CLASS}}() {
+    //Default constructor
+}
+
+{{CLASS}}::{{CLASS}}(const {{CLASS}}& other) {
+    //Copy constructor
+    *this = copy;
+}
+
+{{CLASS}}& {{CLASS}}::operator=(cont {{CLASS}}& rhs) {
+    // Copy assignment operator 
+    return (*this);
+}
+
+{{CLASS}}::~{{CLASS}}() {
+    //Default destructor
+}
+{{CURSOR}}
