@@ -45,6 +45,23 @@ fi
 
 
 
+target=~/templates
+src=${PWD}/vim-templates
+if [ -d $target ] || [ -L $target ]; then
+    read -p "Directory $target already exists, overwrite? (y/N): " confirmation
+    if [ ! -z $confirmation ] && [ $confirmation = "y" ]; then
+        echo "Overwriting directory."
+        rm -rf $target
+        ln -s $src $target
+    else
+        echo "Didn't overwrite directory."
+    fi
+else
+    ln -s $src $target
+fi
+
+
+
 read -p "Do you want to install YouCompleteMe server side (YouCompleteMe/install.py)? (y/N):" confirmation
 if [ $confirmation = "y" ]; then
     echo "Executing install.py"

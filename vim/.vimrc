@@ -24,3 +24,5 @@ syntax on
 nnoremap <C-n> :NERDTreeToggle<CR>
 
 packadd YouCompleteMe
+
+let g:tmlp_search_paths = ['~/.vim/templates']
