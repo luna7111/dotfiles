@@ -14,6 +14,7 @@ set rnu
 "Delete when cub3d is finished
 autocmd FileType c set colorcolumn=81
 autocmd FileType c highlight colorcolumn ctermbg=94
+autocmd FileType c set noexpandtab
 
 highlight Pmenu ctermbg=darkGrey
 highlight PmenuSel ctermbg=lightGrey
