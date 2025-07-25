@@ -21,6 +21,9 @@ highlight PmenuSel ctermbg=lightGrey
 
 syntax on
 
+"F12 toggles floating terminal
+let g:floaterm_keymap_toggle = '<F12>'
+
 "ctrl + n toggles nerdtree
 nnoremap <C-n> :NERDTreeToggle<CR>
 
