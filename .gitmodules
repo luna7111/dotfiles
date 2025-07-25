@@ -10,3 +10,6 @@
 [submodule "vim/.vim/pack/NerdTree/start/nerdtree"]
 	path = vim/.vim/pack/NerdTree/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "vim/.vim/plugin/vim-floaterm"]
+	path = vim/.vim/plugin/vim-floaterm
+	url = git@github.com:voldikss/vim-floaterm.git
