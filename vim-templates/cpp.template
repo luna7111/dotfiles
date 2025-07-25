@@ -6,21 +6,27 @@
 
 #include <{{FILE}}.hpp>
 
+/* Default constructor */
 {{CLASS}}::{{CLASS}}() {
-    //Default constructor
+    std::cout<<"Default constructor called"<<std::endl;
 }
 
-{{CLASS}}::{{CLASS}}(const {{CLASS}}& other) {
-    //Copy constructor
-    *this = copy;
+/* Copy constructor */
+{{CLASS}}::{{CLASS}}(const {{CLASS}}& source) {
+    std::cout<<"Copy constructor called"<<std::endl;
+
+    *this = source;
 }
 
+/* Copy assignment operator */
 {{CLASS}}& {{CLASS}}::operator=(cont {{CLASS}}& rhs) {
-    // Copy assignment operator 
+    std::cout<<"Copy assignment operator called"<<std::endl;
+
     return (*this);
 }
 
+/* Default destructor */
 {{CLASS}}::~{{CLASS}}() {
-    //Default destructor
+    std::cout<<"Destructor called"<<std::endl;
 }
 {{CURSOR}}
