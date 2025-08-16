@@ -20,12 +20,14 @@ highlight Pmenu ctermbg=darkGrey
 highlight PmenuSel ctermbg=lightGrey
 
 syntax on
+syntax enable
+filetype plugin indent on
 
 "F12 toggles floating terminal
 let g:floaterm_keymap_toggle = '<F12>'
 
 "ctrl + n toggles nerdtree
-nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <F11> :NERDTreeToggle<CR>
 
 packadd YouCompleteMe
 

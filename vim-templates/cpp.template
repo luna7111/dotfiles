@@ -8,25 +8,25 @@
 
 /* Default constructor */
 {{CLASS}}::{{CLASS}}() {
-    std::cout<<"Default constructor called"<<std::endl;
+    std::cout<<"{{FILE}} default constructor called"<<std::endl;
 }
 
 /* Copy constructor */
 {{CLASS}}::{{CLASS}}(const {{CLASS}}& source) {
-    std::cout<<"Copy constructor called"<<std::endl;
+    std::cout<<"{{FILE}} copy constructor called"<<std::endl;
 
     *this = source;
 }
 
 /* Copy assignment operator */
-{{CLASS}}& {{CLASS}}::operator=(cont {{CLASS}}& rhs) {
-    std::cout<<"Copy assignment operator called"<<std::endl;
+{{CLASS}}& {{CLASS}}::operator=(const {{CLASS}}& rhs) {
+    std::cout<<"{{FILE}} copy assignment operator called"<<std::endl;
 
     return (*this);
 }
 
 /* Default destructor */
 {{CLASS}}::~{{CLASS}}() {
-    std::cout<<"Destructor called"<<std::endl;
+    std::cout<<"{{FILE}} destructor called"<<std::endl;
 }
 {{CURSOR}}
